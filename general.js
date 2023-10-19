@@ -9,7 +9,7 @@
 
 	            $.ajax({
 	                type: 'POST',
-	                url: 'includes/functions.php',
+	                url: 'get_terminkalender.php',
 	                data: {
 	                    action: 'get_terminkalender_html',
 	                    tid: tid,
